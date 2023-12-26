@@ -1,0 +1,21 @@
+material: Na3P1S4
+
+init:
+  proceed: true
+
+md:
+  proceed: true
+  anneal: true
+  convergence_test: true
+  find_Tm: true
+  melt: true
+  premelt: true
+  quench: true
+
+
+paths:
+  base_path: null
+  md_src_path: /data/haekwan98/python_spinner_auto_hk/md_src
+  pot_dir: /data/vasp4us/pot/PBE54/
+  vasp_gam: /data/vasp4us/vasp6/loki_6.2.0/vasp_gam
+  vasp_std: /data/vasp4us/vasp6/loki_6.2.0/vasp_std
